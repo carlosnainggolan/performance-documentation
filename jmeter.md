@@ -260,28 +260,6 @@ Saat mengevaluasi hasil pengujian melalui **Aggregate Report** atau **Dashboard 
 
 ---
 
-## 🎯 10. Tips & Strategi Lolos Live Coding Interview
-
-1. **Think Aloud (Jelaskan Langkah Anda):**
-* Berbicaralah sambil menyusun elemen di JMeter. Contoh: *"Saya menambahkan HTTP Header Manager di sini untuk mendefinisikan Content-Type application/json agar payload POST dikaji dengan benar oleh server."*
-
-
-2. **Uji Coba dengan Postman / cURL Terlebih Dahulu (1-2 Menit):**
-* Pastikan endpoint API target aktif sebelum memasukkannya ke JMeter.
-
-
-3. **Lakukan Dry Run (1 User / 1 Loop):**
-* Sebelum menaikkan ke 50 atau 100 threads, selalu eksekusi 1 user terlebih dahulu. Pastikan semua sampler di **View Results Tree** berwarna **HIJAU**.
-
-
-4. **Matikan/Disable Listener Sebelum Load Test:**
-* Jelaskan kepada interviewer bahwa Anda menonaktifkan *View Results Tree* saat run beban besar untuk menghemat memori (*resource optimization*).
-
-
-5. **Gunakan Log Viewer Jika Error:**
-* Jika ada request merah, buka ikon segitiga merah di pojok kanan atas dengan tenang. Mengetahui cara *debugging* log sendiri nilai poinnya sangat tinggi di mata interviewer.
-
-
 
 ```
 
